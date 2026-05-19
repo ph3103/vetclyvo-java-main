@@ -11,7 +11,7 @@ Leonardo
 
 ## Descrição do Projeto
 
-A ClyvoVet API resolve o problema da fragmentação na jornada de saúde animal. Hoje, tutores só interagem com clínicas em situações de urgência. Nossa solução oferece uma infraestrutura digital para organizar, lembrar e personalizar o cuidado preventivo e terapêutico do pet de forma contínua.
+A vetclvo API resolve o problema na jornada de saúde animal. Hoje, tutores só interagem com clínicas em situações de urgência. Nossa solução oferece uma infraestrutura digital para organizar, lembrar e personalizar o cuidado preventivo e terapêutico do pet de forma contínua.
 
 ## Tecnologias 
 
