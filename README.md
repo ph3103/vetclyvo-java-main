@@ -102,7 +102,7 @@ src/main/java/br/com/fiap/clyvovet/
 
 **1. Clone o repositório:**
 ```bash
-git clone https://github.com/gabriel-g-dev/clyvovet-java.git
+git clone https://github.com/ph3103/vetclyvo-java-main.git
 cd vetclyvo-java-main
 ```
 
