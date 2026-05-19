@@ -1,17 +1,19 @@
-# 🐾 ClyvoVet Java API
+# Vetclyvo Java API
 
-API RESTful desenvolvida em Java com Spring Boot para gestão da jornada contínua de saúde do pet — FIAP Challenge 2026 em parceria com a Clyvo VET.
+API RESTful feita em Java com Spring Boot para gestão dasaúde do pet
+— FIAP Challenge 2026 em parceria com a Clyvo VET.
 
-## 👥 Integrantes
-- Gabriel Garcia — RM563298
-- Andre Bellandi — RM564662
-- Vitor Augusto — RM564227
+## Integrantes
+Pedro Henrique rm:563062
+Luis Guilherme rm:566548
+Leonardo
 
-## 📋 Descrição do Projeto
+
+## Descrição do Projeto
 
 A ClyvoVet API resolve o problema da fragmentação na jornada de saúde animal. Hoje, tutores só interagem com clínicas em situações de urgência. Nossa solução oferece uma infraestrutura digital para organizar, lembrar e personalizar o cuidado preventivo e terapêutico do pet de forma contínua.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias 
 
 - Java 17
 - Spring Boot 3.3.5
@@ -20,7 +22,7 @@ A ClyvoVet API resolve o problema da fragmentação na jornada de saúde animal.
 - Swagger / OpenAPI (springdoc)
 - Maven
 
-## 📁 Estrutura do Projeto
+# Estrutura 
 src/main/java/br/com/fiap/clyvovet/
 ├── controller/
 │   ├── TutorController.java
@@ -40,7 +42,7 @@ src/main/java/br/com/fiap/clyvovet/
 └── exception/
 └── GlobalExceptionHandler.java
 
-## 🔗 Rotas da API
+## Rotas da API
 
 ### Tutores
 | Método | Rota | Descrição |
@@ -90,7 +92,7 @@ src/main/java/br/com/fiap/clyvovet/
 | PUT | /api/vacinas/{id} | Atualiza vacina |
 | DELETE | /api/vacinas/{id} | Remove vacina |
 
-## ⚙️ Como Rodar o Projeto
+## Como Rodar o Projeto
 
 ### Pré-requisitos
 - Java 17
@@ -101,7 +103,7 @@ src/main/java/br/com/fiap/clyvovet/
 **1. Clone o repositório:**
 ```bash
 git clone https://github.com/gabriel-g-dev/clyvovet-java.git
-cd clyvovet-java
+cd vetclyvo-java-main
 ```
 
 **2. Execute o projeto:**
@@ -118,14 +120,14 @@ JDBC URL: jdbc:h2:mem:clyvovetdb
 User: sa
 Password: (vazio)
 
-## 📊 Exemplos de Requisições
+## Exemplos de Requisições
 
 ### Cadastrar um Tutor
 ```json
 POST /api/tutores
 {
-  "nome": "João Silva",
-  "email": "joao@email.com",
+  "nome": "Neymar Junior",
+  "email": "neymar@email.com",
   "telefone": "11999999999"
 }
 ```
@@ -148,7 +150,7 @@ POST /api/consultas
 {
   "data": "2026-05-10T10:00:00",
   "descricao": "Consulta de rotina",
-  "veterinario": "Dr. Carlos",
+  "veterinario": "Dr. Roberto",
   "observacoes": "Pet saudável",
   "pet": { "id": 1 }
 }
