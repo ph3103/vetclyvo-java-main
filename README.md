@@ -3,10 +3,10 @@ API RESTful feita em Java com Spring Boot para acompanhamento da saúde do pet
 — FIAP Challenge 2026 em parceria com a Clyvo VET.
 
 ## Integrantes
-Pedro Henrique rm:563062
-Luis Guilherme rm:566548
-Leonardo
-Vinicios
+-Pedro Henrique rm:563062
+-Luis Guilherme rm:566548
+-Leonardo
+-Vinicios
 
 
 ## Descrição do Projeto
