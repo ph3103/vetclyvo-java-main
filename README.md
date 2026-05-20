@@ -1,17 +1,17 @@
 # Vetclyvo Java API
-
-API RESTful feita em Java com Spring Boot para gestão dasaúde do pet
+API RESTful feita em Java com Spring Boot para acompanhamento da saúde do pet
 — FIAP Challenge 2026 em parceria com a Clyvo VET.
 
 ## Integrantes
 Pedro Henrique rm:563062
 Luis Guilherme rm:566548
 Leonardo
+Vinicios
 
 
 ## Descrição do Projeto
 
-A vetclvo API resolve o problema na jornada de saúde animal. Hoje, tutores só interagem com clínicas em situações de urgência. Nossa solução oferece uma infraestrutura digital para organizar, lembrar e personalizar o cuidado preventivo e terapêutico do pet de forma contínua.
+A vetclvo API resolve o problema na saúde animal. Hoje, tutores só consuta clínicas em situações de extrema urgência. Nossa solução oferece uma solução digital para organizar, persolanilar e lembrar o cuidado preventivo e terapêutico do pet.
 
 ## Tecnologias 
 
@@ -136,7 +136,7 @@ POST /api/tutores
 ```json
 POST /api/pets
 {
-  "nome": "Rex",
+  "nome": "Thor",
   "especie": "Cachorro",
   "raca": "Labrador",
   "dataNascimento": "2020-03-15",
@@ -150,7 +150,7 @@ POST /api/consultas
 {
   "data": "2026-05-10T10:00:00",
   "descricao": "Consulta de rotina",
-  "veterinario": "Dr. Roberto",
+  "veterinario": "Dr. Henrique",
   "observacoes": "Pet saudável",
   "pet": { "id": 1 }
 }
