@@ -5,8 +5,8 @@ API RESTful feita em Java com Spring Boot para acompanhamento da saúde do pet
 ## Integrantes
 -Pedro Henrique rm:563062
 -Luis Guilherme rm:566548
--Leonardo
--Vinicios
+-Leonardo Guilherme rm:562992
+-Vinicios L. rm:563340
 
 
 ## Descrição do Projeto
